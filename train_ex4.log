@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "train_test_vad.py", line 16, in <module>
+    from model import SwinTransformer3DWithHead
+  File "/mydata/ygq/video-swin-transformer-pytorch-main/model.py", line 5, in <module>
+    from video_swin_transformer import SwinTransformer3D
+  File "/mydata/ygq/video-swin-transformer-pytorch-main/video_swin_transformer.py", line 18, in <module>
+    from mmcv.utils import get_logger
+ModuleNotFoundError: No module named 'mmcv'
